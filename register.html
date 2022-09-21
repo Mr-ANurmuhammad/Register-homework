@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/bootstrap.css">
+   <title>Register</title>
+</head>
+<body>
+
+       
+<main class="form-signin w-100 m-auto container">
+   <form class="w-50  ms-auto me-auto mt-5 form ">
+
+     <!-- <img class="mb-4" src="/docs/5.2/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57"> -->
+     <h1 class="h3 mb-3 fw-normal text-center">Please sign up</h1>
+ 
+     <div class="form-floating">
+
+       <input  type="email" class="form-control user__email" name="email" id="floatingInput" placeholder="name@example.com">
+       <label   for="floatingInput">Email address</label>
+
+     </div>
+
+     <div class="form-floating">
+
+       <input  type="password" class="form-control user__password" name="password" id="floatingPassword" placeholder="Password">
+       <label   for="floatingPassword">Password</label>
+
+     </div>
+
+     <div class="form-floating">
+
+       <input  type="text" class="form-control user__name" name="name" id="floatingName" placeholder="Name">
+       <label  for="floatingName">Name</label>
+
+     </div>
+ 
+     <div class="checkbox mb-3 text-center">
+
+       <label>
+
+         <input  type="checkbox"  class="user__isAdmin"   value="remember-me"> isAdmin
+
+       </label>
+
+     </div>
+     <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+
+     <p class="mt-5 mb-3 text-muted text-center">&copy; 2022–2023</p>
+
+   </form>
+
+ </main>
+   
+
+ <script src="./js/register.js"></script>
+</body>
+</html>

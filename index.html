@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./css/bootstrap.css">
+   <title>index</title>
+</head>
+<body class="bg-info p-2 text-white bg-opacity-75">
+   
+   <button class="log__out btn btn-primary m-5">Log out</button>
+
+   <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">IsAdmin</th>
+          <th scope="col">ID</th>
+        </tr>
+      </thead>
+      <tbody class="wrapper">
+       
+      </tbody>
+    </table>
+
+    <template id="row-temp">
+
+      <tr>
+
+         <th scope="row" class="user__name">Jhonatan Swift</th>
+         <td class="user__email" colspan="2">swif1212t@gmail.com</td>
+         <td class="user__isAdmin" colspan="2">true</td>
+         <td class="user__id">62b975c6262af2a7c1e25527</td>
+
+       </tr>
+
+    </template>
+
+   <script src="./js/script.js"></script>
+</body>
+</html>
